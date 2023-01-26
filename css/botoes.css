@@ -1,7 +1,7 @@
 .facebook{
     border-radius: 10px;
-    color: white;
-    background-color: rgb(24,119,242);
+    color: black;
+    background-color: white;
     border: 0px;
     font-weight: 500;
     
@@ -9,8 +9,10 @@
 
 
 .facebook:hover{
+    background-color: rgb(24,119,242);
     border: 1px solid white;
-    transition: 0.1s;
+    transition: 0.5s;
+    color: rgb(232,242,254);
     
 }
 
@@ -20,10 +22,14 @@
     background-color: rgb(255, 255, 255);
     border: 0px;
     font-weight: 500;
+    
 }
 
 .apple:hover{
+    color: rgb(232,242,254);
+    background-color: black;
     border: 1px solid white;
+    transition: 0.5s;
 }
 
 .google{
@@ -34,7 +40,10 @@
     font-weight: 500;
 }
 .google:hover{
+    color: rgb(232,242,254);
+    background: linear-gradient(-120deg,#4285f4,#34a853,#fbbc05,#EA4335);
     border: 0.2px solid white;
+    transition: 0.5s;
 }
 
 .numero{
@@ -46,7 +55,10 @@
 }
 
 .numero:hover{
+    background-color: black;
+    color: white;
     border: 0.2px solid white;
+    transition: 0.5s;
 }
 
 .button{
