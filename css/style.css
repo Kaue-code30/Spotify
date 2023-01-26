@@ -12,6 +12,15 @@
 
 }
 
+body{
+    height: 99vh;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 255);
+}
+
 html{
 
     scroll-behavior: smooth;
@@ -23,14 +32,18 @@ a{
 }
 
 body{
-            
+           
     margin: 0;
     padding: 0px;
     font-size: 15px;
- background-color: var(--background);
- color: white;
+    background-color: rgba(0, 0, 0, 255);
 }
 
 .form{
     width: 100%;
+    
+}
+
+.logo{
+    width: 20vw;
 }
